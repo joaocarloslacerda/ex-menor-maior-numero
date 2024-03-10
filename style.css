@@ -20,6 +20,31 @@
     border-radius: 20px;
     margin-bottom: 10px;
 }
+.corpo .menorNumero .entradaValores div{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.corpo .menorNumero #valorUmMenor, #valorDoisMenor{
+    border-radius: 20px;
+}
+.corpo .menorNumero #buttonMenorValor{
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 15px;
+    margin-left: 210px;
+    margin-top: 5px;
+}
+.corpo .menorNumero #buttonMenorValor:hover{
+    background-color: rgb(100, 98, 98);
+    color: white;
+}
+.corpo .menorNumero #resultado{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 185px;
+}
 .corpo .maiorNumero{
     width: 500px;
     height: 200px;
@@ -27,4 +52,31 @@
     border: 20px solid rgb(100, 98, 98);
     border-radius: 20px;
 }
-
+.corpo .maiorNumero .entradaValores div{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.corpo .maiorNumero #valorUmMaior, #valorDoisMaior{
+    border-radius: 20px;
+}
+.corpo .maiorNumero #buttonMaiorValor{
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 15px;
+    margin-left: 210px;
+    margin-top: 5px;
+}
+.corpo .maiorNumero #buttonMaiorValor:hover{
+    background-color: rgb(100, 98, 98);
+    color: white;
+}
+.corpo .maiorNumero #resultado{
+    font-weight: bold;
+}
+.corpo .maiorNumero #resultado{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 185px;
+}
