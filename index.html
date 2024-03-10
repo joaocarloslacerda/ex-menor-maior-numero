@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+
+    <title>Menor/Maior</title>
+</head>
+<body>
+
+    <main class="corpo">
+        <section class="menorNumero">
+            <header class="cabecalho">
+                <p>Verifica menor número</p>
+                <p>Informe os número e clique no botão!</p>
+            </header>
+            <div class="entradaValores">
+                <div>
+                    <label for="valorUm">Valor 1:</label>
+                    <input type="text" id="valorUm">
+                </div>
+                <div>
+                    <label for="valorDois">Valor 1:</label>
+                    <input type="text" id="valorDois">
+                </div>
+            </div>
+            <div>   
+                <button type="submit" id="buttonMenorValor" onclick="calculaMedia()">VERIFICAR</button>
+            </div>
+            <div id="resultado">      
+                <p>Resultado</p>          
+            </div>            
+        </section>
+        <section class="maiorNumero">
+            <header class="cabecalho">
+                <p>Verifica maior número</p>
+                <p>Informe os número e clique no botão!</p>
+            </header>
+            <div class="entradaValores">
+                <div>
+                    <label for="valorUm">Valor 1:</label>
+                    <input type="text" id="valorUm">
+                </div>
+                <div>
+                    <label for="valorDois">Valor 1:</label>
+                    <input type="text" id="valorDois">
+                </div>
+            </div>
+            <div>   
+                <button type="submit" id="buttonMaiorValor" onclick="calculaMedia()">VERIFICAR</button>
+            </div>
+            <div id="resultado">      
+                <p>Resultado</p>          
+            </div>            
+        </section>
+    </main>
+    
+</body>
+</html>

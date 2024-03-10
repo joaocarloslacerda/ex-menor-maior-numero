@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.corpo section .cabecalho{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 90px;
+}
+.corpo{
+    margin-top: 35px;
+    margin-left: 350px;
+}
+.corpo .menorNumero{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(211, 208, 208);
+    border: 20px solid rgb(100, 98, 98);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.corpo .maiorNumero{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(211, 208, 208);
+    border: 20px solid rgb(100, 98, 98);
+    border-radius: 20px;
+}
+
