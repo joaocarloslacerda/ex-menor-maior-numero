@@ -39,7 +39,7 @@
     background-color: rgb(100, 98, 98);
     color: white;
 }
-.corpo .menorNumero #resultado{
+.corpo .menorNumero #resultadoMenor{
     font-weight: bold;
     font-size: 30px;
     margin-top: 10px;
@@ -71,10 +71,7 @@
     background-color: rgb(100, 98, 98);
     color: white;
 }
-.corpo .maiorNumero #resultado{
-    font-weight: bold;
-}
-.corpo .maiorNumero #resultado{
+.corpo .maiorNumero #resultadoMaior{
     font-weight: bold;
     font-size: 30px;
     margin-top: 10px;
