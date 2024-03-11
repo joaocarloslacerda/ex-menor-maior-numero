@@ -27,6 +27,7 @@
 }
 .corpo .menorNumero #valorUmMenor, #valorDoisMenor{
     border-radius: 20px;
+    padding-left: 4px;
 }
 .corpo .menorNumero #buttonMenorValor{
     font-weight: bold;
@@ -59,6 +60,7 @@
 }
 .corpo .maiorNumero #valorUmMaior, #valorDoisMaior{
     border-radius: 20px;
+    padding-left: 4px;
 }
 .corpo .maiorNumero #buttonMaiorValor{
     font-weight: bold;

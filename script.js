@@ -2,27 +2,29 @@ function verificaMenorValor(){
 
     let resultado = document.getElementById("resultadoMenor");
 
-    let valorUm = Number(document.getElementById("valorUmMenor").value);
-    let valorDois = Number(document.getElementById("valorDoisMenor").value);
+    let valorUmMenor = Number(document.getElementById("valorUmMenor").value);
+    let valorDoisMenor = Number(document.getElementById("valorDoisMenor").value);
 
-    if(valorUm < valorDois){
-        resultado.innerHTML = `O menor valor é ${valorUm}`;
+    if(valorUmMenor < valorDoisMenor){
+        resultado.innerHTML = `O menor valor é ${valorUmMenor}`;
     }
     else{
-        resultado.innerHTML = `O menor valor é ${valorDois}`;
+        resultado.innerHTML = `O menor valor é ${valorDoisMenor}`;
     }
+    resultado.style.marginLeft = "135px";
 }
 function verificaMaiorValor(){
     
     let resultado = document.getElementById("resultadoMaior");
 
-    let valorUm = Number(document.getElementById("valorMaiorUm").value);
-    let valorDois = Number(document.getElementById("valorMaiorDois").value);
+    let valorUmMaior = Number(document.getElementById("valorUmMaior").value);
+    let valorDoisMaior = Number(document.getElementById("valorDoisMaior").value);
 
-    if(valorUm > valorDois){
-        resultado.innerHTML = `O maior valor é ${valorUm}`;
+    if(valorUmMaior > valorDoisMaior){
+        resultado.innerHTML = `O maior valor é ${valorUmMaior}`;
     }
     else{
-        resultado.innerHTML = `O maior valor é ${valorDois}`;
+        resultado.innerHTML = `O maior valor é ${valorDoisMaior}`;
     }
+    resultado.style.marginLeft = "135px";
 }
